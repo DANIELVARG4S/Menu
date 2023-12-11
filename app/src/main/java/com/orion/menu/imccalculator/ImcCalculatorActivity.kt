@@ -3,7 +3,6 @@ package com.orion.menu.imccalculator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.cardview.widget.CardView
@@ -12,7 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.slider.RangeSlider
 import com.orion.menu.R
 import java.text.DecimalFormat
-import kotlin.math.log
+
 
 class ImcCalculatorActivity : AppCompatActivity() {
 
@@ -123,8 +122,7 @@ class ImcCalculatorActivity : AppCompatActivity() {
         textViewAge.text = currentAge.toString()
     }
 
-    private fun  setPeso(){
-        textViewAltura.text = currentPeso.toString()
+    private fun  setPeso(){ ViewPeso.text = currentPeso.toString()
     }
 
     private fun changeGender() {

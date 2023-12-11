@@ -29,6 +29,15 @@
         android:text="IMC"
         />
 
+    <Button android:id="@+id/btnTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/todo_button"
+        android:text="TODOAPP"
+        />
+
     <Button
         android:id="@+id/btnTresEnraya"
         android:layout_width="match_parent"

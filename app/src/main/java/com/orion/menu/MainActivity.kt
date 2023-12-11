@@ -1,5 +1,6 @@
 package com.orion.menu
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +9,8 @@ import com.orion.menu.TresEnRaya.TresEnRayaActivity
 import com.orion.menu.imccalculator.ImcCalculatorActivity
 
 class MainActivity : AppCompatActivity() {
+
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,11 +21,20 @@ class MainActivity : AppCompatActivity() {
 
         val btnTresEnraya = findViewById<Button>(R.id.btnTresEnraya)
 
+        val btnTodo = findViewById<Button>(R.id.btnTodo)
+
+
         btnSaludar.setOnClickListener { navigateToSaludar() }
 
         btnIMC.setOnClickListener { navigateToImc() }
 
         btnTresEnraya.setOnClickListener { navigateTresEnRaya() }
+
+        btnTodo.setOnClickListener { navigateTodo() }
+    }
+
+    private fun navigateTodo() {
+
     }
 
     private fun navigateToImc() {
