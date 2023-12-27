@@ -27,6 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="IMC"
+        android:backgroundTint="@color/imc_button"
         />
 
     <Button android:id="@+id/btnTodo"

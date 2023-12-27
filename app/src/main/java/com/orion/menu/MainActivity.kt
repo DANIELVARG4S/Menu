@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.orion.menu.TresEnRaya.TresEnRayaActivity
 import com.orion.menu.imccalculator.ImcCalculatorActivity
+import com.orion.menu.todoapp.TodoActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,7 +35,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateTodo() {
-
+        val intent = Intent(this, TodoActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToImc() {

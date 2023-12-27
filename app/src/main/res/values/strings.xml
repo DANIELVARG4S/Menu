@@ -1,4 +1,5 @@
 <resources>
+    <!--IMC -->
     <string name="app_name">Menu</string>
     <string name="male">Hombre</string>
     <string name="female">Mujer</string>
@@ -22,4 +23,10 @@
 
     <string name="title_obesidad">Peso Normal</string>
     <string name="description_obesidad">Estas Muy por encima  de lo optimo tu peso y altura.</string>
+
+    <!--TODO TITLE -->
+    <string name="todo_title">Bienvenido, Daniel</string>
+    <string name="todo_categories">Categories</string>
+    <string name="todo_tasks">Tareas</string>
+    <string name="todo_dialog_add_task">Añade la Tarea</string>
 </resources>
