@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_width="250dp"
     android:background="@color/todo_background_todo_app"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="16dp">
 
     <EditText
         android:id="@+id/etTask"
@@ -17,13 +18,13 @@
     <RadioGroup
         android:id="@+id/rgCategories"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
 
     <RadioButton
         android:id="@+id/rbBussines"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Negocios"
+        android:text="@string/todo_dialog_category_bussiness"
         android:checked="true"
         android:textColor="@color/white"
         android:buttonTint="@color/todo_businnes_category"/>
@@ -31,7 +32,7 @@
         android:id="@+id/rbPersonal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Personal"
+        android:text="@string/todo_dialog_category_personal"
         android:textColor="@color/white"
         android:buttonTint="@color/todo_personal_category"/>
 
@@ -39,7 +40,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="Otro"
+        android:text="@string/todo_dialog_category_other"
         android:buttonTint="@color/todo_other_category"/>
-
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_dialog_add_task_button"
+        android:backgroundTint="@color/todo_accent"/>
+    </RadioGroup>
 </LinearLayout>
