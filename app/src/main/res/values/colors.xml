@@ -36,5 +36,17 @@
     <color name="todo_personal_category">#00BCD4</color>
     <color name="todo_other_category">#4CAF50</color>
 
+    <!--Juego Gato -->
+
+    <color name="background_Tres" >#58B6E1</color>
+
+
+    <!--Calculadora -->
+
+    <color name="background_cal" >#58B6E1</color>
+    <color name="button_cal" >#1AAF9D</color>
+    <color name="colorButton">#4660F1</color>
+    <color name="colorButtonSet">#F8F8FA</color>
+    <color name="colorButtonC">#4660F1</color>
 
 </resources>

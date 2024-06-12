@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.orion.menu.TresEnRaya.TresEnRayaActivity
+import com.orion.menu.calculadora.CalculadoraActivity
 import com.orion.menu.imccalculator.ImcCalculatorActivity
 import com.orion.menu.todoapp.TodoActivity
 
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnTodo = findViewById<Button>(R.id.btnTodo)
 
+        val btnCalculadora = findViewById<Button>(R.id.btnCalculadora)
 
         btnSaludar.setOnClickListener { navigateToSaludar() }
 
@@ -32,6 +34,8 @@ class MainActivity : AppCompatActivity() {
         btnTresEnraya.setOnClickListener { navigateTresEnRaya() }
 
         btnTodo.setOnClickListener { navigateTodo() }
+
+        btnCalculadora.setOnClickListener{navigateCalculadora()}
     }
 
     private fun navigateTodo() {
@@ -51,6 +55,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun navigateTresEnRaya() {
         val intent = Intent(this, TresEnRayaActivity::class.java)
+        startActivity(intent)
+    }
+
+    private  fun  navigateCalculadora() {
+        val intent = Intent(this, CalculadoraActivity::class.java)
         startActivity(intent)
     }
 }

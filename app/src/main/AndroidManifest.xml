@@ -13,9 +13,12 @@
         android:theme="@style/Theme.Menu"
         tools:targetApi="31">
         <activity
+            android:name=".calculadora.CalculadoraActivity"
+            android:exported="false" />
+        <activity
             android:name=".todoapp.TodoActivity"
-            android:theme="@style/theme.TODOApp"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@style/theme.TODOApp">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -33,4 +33,14 @@
     <string name="todo_dialog_category_personal">Personal</string>
     <string name="todo_dialog_category_other">Otro</string>
     <string name="todo_dialog_add_task_button">Crear tarea</string>
+    <string name="_Uno">1</string>
+    <string name="_Dos">2</string>
+    <string name="_Tres">3</string>
+    <string name="_cuatro">4</string>
+    <string name="_Cinco">5</string>
+    <string name="_Seis">6</string>
+    <string name="_Siete">7</string>
+    <string name="_Ocho">8</string>
+    <string name="_nueve">9</string>
+    <string name="reset">C</string>
 </resources>
