@@ -8,6 +8,8 @@ import android.widget.Button
 import com.orion.menu.TresEnRaya.TresEnRayaActivity
 import com.orion.menu.calculadora.CalculadoraActivity
 import com.orion.menu.imccalculator.ImcCalculatorActivity
+import com.orion.menu.settings.SettingsActivity
+import com.orion.menu.superheroapp.SuperHeroListActivity
 import com.orion.menu.todoapp.TodoActivity
 
 class MainActivity : AppCompatActivity() {
@@ -27,6 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         val btnCalculadora = findViewById<Button>(R.id.btnCalculadora)
 
+        val btnSuperHeroList = findViewById<Button>(R.id.btnSuperHeroList)
+
+        val btnSettings = findViewById<Button>(R.id.btnSettings)
+
         btnSaludar.setOnClickListener { navigateToSaludar() }
 
         btnIMC.setOnClickListener { navigateToImc() }
@@ -36,6 +42,15 @@ class MainActivity : AppCompatActivity() {
         btnTodo.setOnClickListener { navigateTodo() }
 
         btnCalculadora.setOnClickListener{navigateCalculadora()}
+
+        btnSuperHeroList.setOnClickListener { navigateSupertHeroList() }
+
+        btnSettings.setOnClickListener { navigateSettings() }
+    }
+
+    private fun navigateSettings() {
+        val intent = Intent(this,SettingsActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateTodo() {
@@ -60,6 +75,11 @@ class MainActivity : AppCompatActivity() {
 
     private  fun  navigateCalculadora() {
         val intent = Intent(this, CalculadoraActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navigateSupertHeroList() {
+        val intent = Intent(this, SuperHeroListActivity::class.java)
         startActivity(intent)
     }
 }

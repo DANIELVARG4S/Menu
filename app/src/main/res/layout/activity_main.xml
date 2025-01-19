@@ -59,4 +59,25 @@
         android:text="Calculadora"
         />
 
+    <Button
+        android:id="@+id/btnSuperHeroList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/colorButtonHero"
+        android:text="SuperHero"
+        />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/colorButtonHero"
+        android:text="@string/settings"
+        />
+
+
 </LinearLayout>

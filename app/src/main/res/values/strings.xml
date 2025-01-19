@@ -43,4 +43,5 @@
     <string name="_Ocho">8</string>
     <string name="_nueve">9</string>
     <string name="reset">C</string>
+    <string name="settings">Settings</string>
 </resources>

@@ -48,5 +48,24 @@
     <color name="colorButton">#4660F1</color>
     <color name="colorButtonSet">#F8F8FA</color>
     <color name="colorButtonC">#4660F1</color>
+    <color name="colorButtonHero">#22024E</color>
 
+    <!--SuperHeroAPP -->
+    <color name="super_hero_tem">#8C673AB7</color>
+
+    <!--  intelligence-->
+    <color name="super_hero_stat_intelligence">#6FF174</color>
+    <!--  strength-->
+    <color name="super_hero_stat_strength">#F80C03</color>
+    <!--  speed-->
+    <color name="super_hero_stat_speed">#F3FF9800</color>
+    <!--   durability-->
+    <color name="super_hero_stat_durability">#3BA4FF</color>
+    <!--   power-->
+    <color name="super_hero_stat_power">#FFEB3B</color>
+    <!--  combat-->
+    <color name="super_hero_stat_combat">#673AB7</color>
+
+    <!--Settings-->
+    <color name="settings_text_title">#000000</color>
 </resources>
